@@ -1,8 +1,8 @@
 <template>
     <div class="title">
-      <h2>{{ title }}</h2>
+      <h2>{{ description.title }}</h2>
       <div class="wrapper">
-        <div class="text-wrapper">{{ description }}</div>
+        <div class="text-wrapper">{{ description.description }}</div>
       </div>
     </div>
 </template>
@@ -11,7 +11,6 @@
   export default {
     name: 'Title',
     props: [
-      'title',
       'description'
     ],
   };

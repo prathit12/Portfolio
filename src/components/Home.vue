@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "LandingPage",
+  name: "Home",
   props: ["user"]
 };
 </script>
